@@ -137,7 +137,16 @@ figcaption { margin-top: .55rem; font-size: .8rem; color: var(--muted); }
 }
 
 /* Catalog and game pages */
-.catalog-heading { margin-bottom: 2rem; }
+.catalog-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem 2.5rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2rem;
+  margin-bottom: 1.4rem;
+}
 .catalog-heading h1, .game-detail h1 {
   font-size: clamp(2.75rem, 6vw, 5rem);
   line-height: 1.03;
@@ -145,37 +154,81 @@ figcaption { margin-top: .55rem; font-size: .8rem; color: var(--muted); }
   margin: 0 0 .65rem;
 }
 .catalog-heading p, .game-detail-meta { color: var(--muted); }
-.catalog-search { max-width: 35rem; margin-bottom: 2rem; }
-.catalog-search label { display: block; margin-bottom: .5rem; font-weight: 800; }
-.catalog-search input {
-  appearance: none;
-  width: 100%;
-  min-height: 3.25rem;
-  padding: .75rem 1rem;
+.catalog-search { flex: 0 1 23rem; min-width: 0; }
+.catalog-search label { display: block; margin-bottom: .5rem; font-weight: 750; }
+.catalog-search-field {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  padding-inline: .85rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
+  color: var(--muted);
+}
+.catalog-search-field:focus-within { outline: 2px solid var(--lime); outline-offset: 2px; }
+.catalog-search input {
+  width: 100%;
+  min-width: 0;
+  min-height: 3rem;
+  border: 0;
+  background: transparent;
   color: var(--paper);
   font: inherit;
 }
+.catalog-search input:focus-visible { outline: none; }
 .catalog-search input::placeholder { color: var(--muted); }
-.catalog-results { color: var(--muted); margin: 0 0 .75rem; }
-.catalog-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-.catalog-game {
+.catalog-results { color: var(--muted); margin: 0 0 1rem; }
+.catalog-list {
   display: grid;
-  grid-template-columns: clamp(5rem, 19vw, 12rem) minmax(0, 1fr) auto;
-  align-items: center;
-  gap: clamp(.75rem, 3vw, 2rem);
-  padding: 1rem .35rem;
-  border-bottom: 1px solid var(--line);
-  color: inherit;
-  text-decoration: none;
+  grid-template-columns: repeat(auto-fill,minmax(min(100%,16rem),1fr));
+  gap: clamp(.85rem,2vw,1.25rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.catalog-game:hover { background: var(--panel); }
-.catalog-game img, .game-detail-art { width: 100%; height: auto; border-radius: 8px; background: var(--panel); }
-.catalog-game h2 { margin: 0 0 .25rem; font-size: clamp(1.125rem, 2.8vw, 1.75rem); }
-.catalog-game p { margin: 0; color: var(--muted); }
+.catalog-game {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  color: var(--paper);
+  text-decoration: none;
+  transition: border-color .18s ease;
+}
+.catalog-game:hover { border-color: var(--lime); }
+.catalog-game img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  background: var(--ink);
+}
+.catalog-game-info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: .65rem;
+  padding: .95rem 1rem;
+}
+.catalog-game h2 { margin: 0 0 .2rem; font-size: clamp(1.125rem, 2vw, 1.5rem); }
+.catalog-game p { margin: 0; color: var(--muted); font-size: .875rem; }
 .catalog-game svg, .game-back svg { width: 1.25rem; height: 1.25rem; color: var(--lime); }
+.game-detail-art { width: 100%; height: auto; border-radius: 8px; background: var(--panel); }
+@media (min-width: 360px) and (max-width: 580px) {
+  .catalog-list { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .catalog-game-info { align-items: start; padding: .65rem .7rem; }
+  .catalog-game h2 { font-size: 1.05rem; }
+  .catalog-game-info svg { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .catalog-game { transition: none; }
+}
 .game-back { display: inline-flex; align-items: center; gap: .55rem; margin-bottom: 2rem; }
 .game-detail-header { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(15rem, 1fr); gap: 2rem; align-items: center; }
 .game-detail-actions, .integration-links { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; }
