@@ -244,3 +244,9 @@ figcaption { margin-top: .55rem; font-size: .8rem; color: var(--muted); }
   .game-cheats ul { grid-template-columns: 1fr; }
 }
 .game-detail-meta { margin-bottom: .9rem; }
+
+.header-actions { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
+.language-picker { display: grid; gap: .25rem; font-size: .75rem; color: var(--muted); }
+.language-picker select { max-width: 10rem; min-height: 2.75rem; border: 1px solid var(--line); border-radius: 6px; padding: .5rem .6rem; color: var(--paper); background: var(--panel); font: inherit; }
+.language-picker select:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
+@media (max-width: 42rem) { .header-actions { grid-column: 1 / -1; grid-row: 3; justify-content: space-between; padding-bottom: .8rem; } }
