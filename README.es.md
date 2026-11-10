@@ -26,6 +26,7 @@ La página de cada juego muestra los controles disponibles y ofrece el paquete f
 | [My Friend Pedro](https://bytetrainer.github.io/trainer-integrations/es/jogos/557340.html) | 8 |
 | [My Little Universe](https://bytetrainer.github.io/trainer-integrations/es/jogos/2328750.html) | 18 |
 | [Out of Space](https://bytetrainer.github.io/trainer-integrations/es/jogos/400080.html) | 10 |
+| [Pigeons Attack](https://bytetrainer.github.io/trainer-integrations/es/jogos/814300.html) | 11 |
 | [Pumpkin Jack](https://bytetrainer.github.io/trainer-integrations/es/jogos/1186640.html) | 6 |
 | [Shake it Co!](https://bytetrainer.github.io/trainer-integrations/es/jogos/3578070.html) | 13 |
 | [Sol Cesto](https://bytetrainer.github.io/trainer-integrations/es/jogos/2738490.html) | 8 |
