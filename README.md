@@ -28,6 +28,7 @@ Each game page shows the available controls and offers the latest signed package
 | [My Little Universe](https://bytetrainer.github.io/trainer-integrations/en/jogos/2328750.html) | 21 |
 | [Out of Space](https://bytetrainer.github.io/trainer-integrations/en/jogos/400080.html) | 10 |
 | [Pigeons Attack](https://bytetrainer.github.io/trainer-integrations/en/jogos/814300.html) | 11 |
+| [Tooth and Tail](https://bytetrainer.github.io/trainer-integrations/en/jogos/286000.html) | 7 |
 | [Pumpkin Jack](https://bytetrainer.github.io/trainer-integrations/en/jogos/1186640.html) | 6 |
 | [Shake it Co!](https://bytetrainer.github.io/trainer-integrations/en/jogos/3578070.html) | 13 |
 | [Sol Cesto](https://bytetrainer.github.io/trainer-integrations/en/jogos/2738490.html) | 8 |
