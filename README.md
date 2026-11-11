@@ -25,7 +25,7 @@ Each game page shows the available controls and offers the latest signed package
 | [Last Hope Bunker: Zombie Survival](https://bytetrainer.github.io/trainer-integrations/en/jogos/2475440.html) | 7 |
 | [Moventure](https://bytetrainer.github.io/trainer-integrations/en/jogos/3826060.html) | 3 |
 | [My Friend Pedro](https://bytetrainer.github.io/trainer-integrations/en/jogos/557340.html) | 8 |
-| [My Little Universe](https://bytetrainer.github.io/trainer-integrations/en/jogos/2328750.html) | 18 |
+| [My Little Universe](https://bytetrainer.github.io/trainer-integrations/en/jogos/2328750.html) | 21 |
 | [Out of Space](https://bytetrainer.github.io/trainer-integrations/en/jogos/400080.html) | 10 |
 | [Pigeons Attack](https://bytetrainer.github.io/trainer-integrations/en/jogos/814300.html) | 11 |
 | [Pumpkin Jack](https://bytetrainer.github.io/trainer-integrations/en/jogos/1186640.html) | 6 |
