@@ -29,6 +29,7 @@ La página de cada juego muestra los controles disponibles y ofrece el paquete f
 | [Out of Space](https://bytetrainer.github.io/trainer-integrations/es/jogos/400080.html) | 10 |
 | [Pigeons Attack](https://bytetrainer.github.io/trainer-integrations/es/jogos/814300.html) | 11 |
 | [Tooth and Tail](https://bytetrainer.github.io/trainer-integrations/es/jogos/286000.html) | 7 |
+| [Cooking Live: Restaurant Game](https://bytetrainer.github.io/trainer-integrations/es/jogos/1990690.html) | 9 |
 | [Pumpkin Jack](https://bytetrainer.github.io/trainer-integrations/es/jogos/1186640.html) | 6 |
 | [Shake it Co!](https://bytetrainer.github.io/trainer-integrations/es/jogos/3578070.html) | 13 |
 | [Sol Cesto](https://bytetrainer.github.io/trainer-integrations/es/jogos/2738490.html) | 8 |
