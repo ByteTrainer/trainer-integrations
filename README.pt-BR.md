@@ -20,6 +20,7 @@ A página de cada jogo mostra os controles disponíveis e oferece o pacote assin
 
 | Jogo | Controles |
 | --- | ---: |
+| [A Hat in Time](https://bytetrainer.github.io/trainer-integrations/jogos/253230.html) | 12 |
 | [Dungeon of the Endless](https://bytetrainer.github.io/trainer-integrations/jogos/249050.html) | 14 |
 | [Kawaii Deathu Desu](https://bytetrainer.github.io/trainer-integrations/jogos/1102880.html) | 5 |
 | [Last Hope Bunker: Zombie Survival](https://bytetrainer.github.io/trainer-integrations/jogos/2475440.html) | 7 |
