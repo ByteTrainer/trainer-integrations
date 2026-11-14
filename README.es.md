@@ -20,7 +20,7 @@ La página de cada juego muestra los controles disponibles y ofrece el paquete f
 
 | Juego | Controles |
 | --- | ---: |
-| [A Hat in Time](https://bytetrainer.github.io/trainer-integrations/es/jogos/253230.html) | 12 |
+| [A Hat in Time](https://bytetrainer.github.io/trainer-integrations/es/jogos/253230.html) | 15 |
 | [Dungeon of the Endless](https://bytetrainer.github.io/trainer-integrations/es/jogos/249050.html) | 14 |
 | [Kawaii Deathu Desu](https://bytetrainer.github.io/trainer-integrations/es/jogos/1102880.html) | 5 |
 | [Last Hope Bunker: Zombie Survival](https://bytetrainer.github.io/trainer-integrations/es/jogos/2475440.html) | 7 |
