@@ -34,6 +34,7 @@ Each game page shows the available controls and offers the latest signed package
 | [Pumpkin Jack](https://bytetrainer.github.io/trainer-integrations/en/jogos/1186640.html) | 6 |
 | [Shake it Co!](https://bytetrainer.github.io/trainer-integrations/en/jogos/3578070.html) | 13 |
 | [Sol Cesto](https://bytetrainer.github.io/trainer-integrations/en/jogos/2738490.html) | 8 |
+| [State of Decay: Year-One Survival Edition](https://bytetrainer.github.io/trainer-integrations/en/jogos/329430.html) | 23 |
 | [Tinykin](https://bytetrainer.github.io/trainer-integrations/en/jogos/1599020.html) | 12 |
 
 ## Install or update an integration
